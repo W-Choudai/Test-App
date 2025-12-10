@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to my first Node.js app!' });
+  res.json({ message: 'Hello World!' });
 });
 
 // Get all users
