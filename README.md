@@ -3,17 +3,6 @@
 
 A full-stack web application built with Node.js, connected to a PostgreSQL database on AWS RDS, and deployed using AWS Elastic Beanstalk.
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Database Setup](#database-setup)
-- [Deployment to AWS](#deployment-to-aws)
-- [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
-- [Environment Variables](#environment-variables)
-
 ## ✨ Features
 
 - RESTful API with Express.js
