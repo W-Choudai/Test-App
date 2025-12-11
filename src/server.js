@@ -1,16 +1,21 @@
 const express = require('express');
 const pool = require('./db');
+const path = require('path');
 require('dotenv').config();
 
 const app = express();
+app.use(express.static('public'));
 const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
 
 // Routes
+// app.get('/', (req, res) => {
+//   res.json({ message: 'Hello World!' });
+// });
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello World!' });
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 // Get all users
